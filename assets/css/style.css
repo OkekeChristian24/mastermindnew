@@ -1,5 +1,8 @@
 .video-anchor{
-  background-color: #0C0E24; 
+  background-color: #EEB81C;
+  background-image: linear-gradient(#edb612, #fae9b8);
+  text-shadow: 2px 2px 2px #be920e;
+  
   padding: 9px; 
   padding-right: 20px; 
   margin-bottom: 9px; 
@@ -32,8 +35,8 @@
 
 .mmd-title{
     display: inline-block;
-    background-color: #46bdf4;
-    color: #04062e;
+    background-color: #EEB81C;
+    color: #fff;
     border-radius: 10px;
     padding: 0 9px;
 }
@@ -89,19 +92,21 @@
 }
 
 .wp-land-link{
-  background-color: #04062e;
-  background-image: linear-gradient(#04062e, #46bdf4);
-
-  color: #ffffff;
+  background-color: #EEB81C;
+  background-image: linear-gradient(#edb612, #fae9b8);
+  color: #fff !important;
+  text-shadow: 2px 2px 2px #be920e;
   height: calc(100% - 48px);
   border-radius: 48px;
   padding: 12px 24px;
   margin-right: 10px;
-  border: 2px solid #46bdf4;
+  border: 2px solid #EEB81C;
+  font-weight: bold;
 }
 
 .lead i{
   text-shadow: 2px 2px 2px black;
+  color: #ffffff;
 }
 
 .contact-img{

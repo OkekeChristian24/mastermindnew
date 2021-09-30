@@ -1866,7 +1866,8 @@ hr { position: relative; z-index: 5; }
 
 .btn-play:hover { color: #2b56f5 !important; }
 
-.btn-play-s2 { background-image: linear-gradient(to right, #46bdf4 0%, #2b56f5 100%); border: none; }
+/* .btn-play-s2 { background-image: linear-gradient(to right, #46bdf4 0%, #2b56f5 100%); border: none; } */
+.btn-play-s2 { background-color: #eff6ff; border: none; }
 
 .btn-play-s2:before { position: absolute; height: calc(100% - 4px); width: calc(100% - 4px); top: 2px; left: 2px; content: ''; background: #fff; border-radius: 50%; z-index: 0; }
 
@@ -1930,7 +1931,7 @@ hr { position: relative; z-index: 5; }
 
 .btn-play-text .text-sm { font-size: 21px; }
 
-.btn-play-text .text-xs { font-size: 12px; color: #46bdf4 !important; }
+.btn-play-text .text-xs { font-size: 12px; color: #ffffff !important; font-weight: bold;}
 
 .btn-play-wrap-s2 .btn-play-text { margin-left: 0; margin-top: 15px; }
 
