@@ -181,7 +181,6 @@
 
 .wp-land-link, .whitepaper-btn{
   color: #fff !important;
-  text-shadow: 2px 2px 2px #be920e;
   height: calc(100% - 48px);
   border-radius: 48px;
   padding: 12px 24px;
@@ -193,6 +192,8 @@
 .wp-land-link{
   background-color: #EEB81C;
   background-image: linear-gradient(#edb612, #fae9b8);
+  text-shadow: 2px 2px 2px #be920e;
+
 }
 
 .lead i{

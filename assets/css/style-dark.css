@@ -1676,7 +1676,7 @@ hr { position: relative; z-index: 5; }
 .alert-warning-alt .close { background: #e0a609; }
 
 /** 03.02 Buttons */
-.btn { position: relative; font-size: 12px; line-height: 24px; font-weight: 500; padding: 8px 15px; text-align: center; text-transform: uppercase; color: #fff; min-width: 120px; max-width: 100%; border: 2px solid #46bdf4; box-sizing: border-box; transition: all 0.5s; position: relative; border-radius: 5px; z-index: 2; display: inline-flex; align-items: center; justify-content: center; white-space: nowrap; cursor: pointer; }
+.btn { position: relative; font-size: 12px; line-height: 24px; font-weight: 500; padding: 8px 15px; text-align: center; text-transform: uppercase; color: #fff; min-width: 120px; max-width: 100%; border: 2px solid #EEB81C; box-sizing: border-box; transition: all 0.5s; position: relative; border-radius: 5px; z-index: 2; display: inline-flex; align-items: center; justify-content: center; white-space: nowrap; cursor: pointer; }
 
 .btn .icon { color: inherit; }
 
@@ -1756,7 +1756,7 @@ hr { position: relative; z-index: 5; }
 
 .btn-outline.on-bg-theme, .btn-outline.on-bg-theme-alt, .btn-outline.on-bg-theme-dark, .btn-outline.on-bg-theme-dark-alt { color: #fff; }
 
-.btn-outline.on-bg-theme:before { background-color: #0b0c22; background-image: linear-gradient(#04062e, #46bdf4);}
+.btn-outline.on-bg-theme:before { background-color: #EEB81C;}
 
 .btn-outline.on-bg-theme-alt:before { background-color: #10122d; }
 
@@ -6578,7 +6578,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 @media (min-width: 992px) { .tc-light .header-menu .language-switcher .toggle-tigger, .tc-light .header-menu .btn-outline:not(:hover), .is-transparent .header-menu .language-switcher .toggle-tigger, .is-transparent .header-menu .btn-outline:not(:hover), .is-transparent:not(.has-fixed):not(.is-light) .header-menu .language-switcher .toggle-tigger, .is-transparent:not(.has-fixed):not(.is-light) .header-menu .btn-outline:not(:hover), .is-dark .header-menu .language-switcher .toggle-tigger, .is-dark .header-menu .btn-outline:not(:hover) { color: #fff; }
   .is-split:not(.has-fixed):not(.is-light) .header-menu .btn-outline:not(:hover) { color: #28384c; }
   .has-fixed:not(.is-dark) .header-menu .language-switcher .toggle-tigger:not(.btn), .has-fixed:not(.is-dark) .header-menu .btn-outline:not(:hover), .is-light .header-menu .language-switcher .toggle-tigger:not(.btn), .is-light .header-menu .btn-outline:not(:hover) { color: #28384c; }
-  .is-transparent:not(.has-fixed):not(.is-light) .header-menu .btn-outline:not(:hover):not(.no-change) { border-color: rgba(255, 255, 255, 0.4); }
+  .is-transparent:not(.has-fixed):not(.is-light) .header-menu .btn-outline:not(:hover):not(.no-change) { border-color: #EEB81C; }
   .is-transparent:not(.has-fixed):not(.is-light) .header-menu .btn:not(:hover):not(.no-change):not(.btn-outline) { border-color: #fff; background: #fff; color: #28384c; }
   .is-transparent:not(.has-fixed):not(.is-light) .header-menu .btn-outline:not([class*="btn-grad"]):not(.no-change):hover { color: #46bdf4 !important; border-color: #fff; background-color: #fff; } }
 
