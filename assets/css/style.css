@@ -392,7 +392,7 @@
 
   .front-btns{
     flex-direction: row;
-    margin-top: 15px;
+    /* margin-top: 15px; */
   }
 
   .mv-container{
@@ -507,9 +507,6 @@
 }
 
 @media (max-width: 480px){
-  /* .grid-col-2 p{
-    font-weight: 400;
-  } */
 
   .header-logo{
     width: 200px;
@@ -524,7 +521,6 @@
   }
   .tri-chart img{
     height: 120px;
-    /* width: 375px !important; */
   }
 
   .video-player{
@@ -536,8 +532,27 @@
     width: 300px;
   }
 
+}
 
+@media (max-width: 387px){
+
+  .my-vid-style{
+    margin-top: -11px;
+  }
   
+  .whitepaper-btn{
+    margin-bottom: 15px;
+  }
+
+  .mission, .vision{
+    padding: 1em;
+    width: 20em;
+  }
+
+  #products-img-2{
+    width: 300px;
+  }
+
 }
 
 
