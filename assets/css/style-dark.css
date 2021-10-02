@@ -59,6 +59,9 @@
 html, body { font-family: "Ubuntu", sans-serif; color: #28384c; font-size: 14px; line-height: 1.86; font-weight: 300; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; position: relative; }
 
 /* Custom Styles */
+body{
+  background-color: #0D233A !important;
+}
 #products{
   background-color: #08091B !important;
 }
@@ -67,8 +70,7 @@ html, body { font-family: "Ubuntu", sans-serif; color: #28384c; font-size: 14px;
 }
 
 #distribution{
-  /* background-color: #e1e1e1 !important; */
-  background-image: linear-gradient(270deg, #1b729b 0%, #0C0D23 100%) !important;
+  background-color: transparent !important;
 }
 
 .mission-title:before{
@@ -3518,11 +3520,11 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .tab-nav-line { margin-bottom: 20px; border-bottom: 2px solid rgba(219, 228, 247, 0.5); text-align: center; justify-content: center;}
 
-.tab-nav-line li a { color: #252525; border-bottom: none; position: relative; }
+.tab-nav-line li a { color: #8C8585; border-bottom: none; position: relative; }
 
 .tab-nav-line li a:after { position: absolute; width: 100%; height: 2px; left: 0; bottom: -2px; content: ''; opacity: 0; transition: all .4s; }
 
-.tab-nav-line li a:hover, .tab-nav-line li a.active { color: #E5E5E5; background-color: #0B0C22; border-radius: 9px;}
+.tab-nav-line li a:hover, .tab-nav-line li a.active { color: #252525; }
 
 .tab-nav-line li a.active:after { opacity: 1; }
 
