@@ -126,10 +126,10 @@
 }
 
 .mmd-title{
-    display: inline-block;
+    display: block;
     color: #EEB81C;
     border-radius: 10px;
-    padding: 0 9px;
+    padding: 0;
 }
 
 .products-bg-grad{
@@ -347,7 +347,7 @@
 
 @media (max-width: 991px){
   .front-btns{
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   #front-img{
@@ -355,7 +355,7 @@
   }
 
   #front-img img.gif-img{
-    width: 200px;
+    width: 350px;
   }
 
   #front-img img.bouncing{
@@ -387,7 +387,7 @@
 
 @media (max-width: 768px){
   .wp-land-link{
-    padding: 7px 9px;
+    padding: 10px 9px;
   }
 
   .front-btns{
