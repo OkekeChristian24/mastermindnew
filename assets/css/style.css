@@ -553,6 +553,11 @@
     width: 300px;
   }
 
+  .key-notes-container .demarcator{
+    width: 180px;
+    height: 3px;
+  }
+
 }
 
 
